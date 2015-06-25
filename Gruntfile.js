@@ -12,7 +12,7 @@ module.exports = function(grunt, type) {
         tasks: ['sass']
       },
       react: {
-        files: 'app/**/*.jsx',
+        files: ['app/**/*.jsx', 'app/**/*.js'],
         tasks: ['browserify']
       }
     },
