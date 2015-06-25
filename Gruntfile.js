@@ -48,37 +48,7 @@ module.exports = function(grunt, type) {
           }
         }
       }
-    },
-    react: {
-      // single_js_files: {
-      //   files: {
-      //     'dist/js/app.js': 'app/app.js'
-      //   }
-      // }
-      single_jsx_files: {
-        files: {
-          'dist/js/app.jsx': 'app/app.jsx',
-        }
-      },
-      // dynamic_mappings: {
-      //   files: [
-      //     {
-      //       expand: true,
-      //       cwd: 'app',
-      //       src: ['**/*.js'],
-      //       dest: 'dist/js/',
-      //       ext: '.js'
-      //     },
-      //     {
-      //       expand: true,
-      //       cwd: 'app',
-      //       src: ['**/*.jsx'],
-      //       dest: 'dist/js/',
-      //       ext: '.js'
-      //     }
-      //   ]
-      // }
-    },
+    }
   });
 
   [
