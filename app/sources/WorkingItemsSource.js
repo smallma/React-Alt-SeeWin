@@ -10,8 +10,6 @@ var mockData = [
   { name: "年度消防檢修申報", description: "代辦項目：年度消防檢修簽證申報"}
 ];
 
-
-
 var WorkingItemsSource = {
   fetchWorkingItems() {
     return {
